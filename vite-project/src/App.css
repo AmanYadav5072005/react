@@ -1,3 +1,17 @@
 
+.ex{
+    background-color: blue;
+    color: aqua;
+    text-align: center;
+    
+}
+.navbar{
+     color: blue;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 1rem 2rem;
+     background-color: black;
 
+}
 
