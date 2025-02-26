@@ -6,4 +6,4 @@ const Services = ()=>{
         </>
     )
 }
-export default Gallary
+export default Services

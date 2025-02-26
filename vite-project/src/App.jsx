@@ -28,6 +28,10 @@ function App() {
     <h1 style={{backgroundColor:"red",color:"white"}}>My Name is {Name}</h1>
     <h1 style={st}>My age{Age}</h1>
     <h1 className='ex'> externalclass</h1>
+
+    <Ab/>
+    <hp/>
+    
     <About/>
     <Contact/>
     <Services/>

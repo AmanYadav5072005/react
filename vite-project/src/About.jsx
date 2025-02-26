@@ -10,6 +10,8 @@ const Help =()=>{
     return(
         <>
         <h1>Help page</h1>
+        <Ab/>
+        <hp/>
         </>
     )
 }
