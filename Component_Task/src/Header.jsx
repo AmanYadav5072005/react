@@ -1,9 +1,11 @@
 import './App.css'
-const Header=()=>{
+
+const Header = ()=>{
     return(
         <>
         
-        <h1>Welcome to react class</h1>
+      
+      <h1>Header page</h1>
         <ul>
             <li>Home</li>
             <li>About</li>
