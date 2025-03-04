@@ -7,7 +7,7 @@ const Event =()=>{
        
        <button onClick={fun}>Click</button>
        <button onDoubleClick={fun}>DbClick</button>
-       <button onMouseEnter={fun}> MouseEnter</button>
+       <button onMouseEnter={fun}> MouseEnter</button> t
        
         </>
     )

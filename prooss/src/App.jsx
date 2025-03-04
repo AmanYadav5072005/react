@@ -3,10 +3,11 @@ import Child from "./Child"
 
 
 
-function Child1(){
+function App(){
   return(
     <>
-    <Child name="Aman yadav"/>
+    <Child name="Aman "/>
+    <child lname="Yadav"/>
     
     
 

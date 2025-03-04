@@ -1,12 +1,15 @@
 import Child1 from "./Child1"
-import Child2 from "./Child2"
+
+
 
 
 function Child(props){
+    let{lname}=props
     return(
         <>
        
        <h1>My name is {props.name}</h1>
+       <Child1  district="vaishali"/>
         </>
     )
 }
