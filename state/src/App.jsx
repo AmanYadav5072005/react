@@ -1,5 +1,6 @@
 
 import{useState} from "react"
+import About from "./About"
 
 function App(){
   let[name,setName]=useState("yadav")
@@ -26,11 +27,18 @@ function App(){
     <button onClick={fun}>Change name</button>
     
     <button onClick={()=>setAge(20)}>Change age</button>
+
    <button onClick={city}>Change city</button>
+
     <button onClick={village} >Change village </button> 
+
     <button on onClick={()=>setColor('orange')}> orange</button>
+
     <button on onClick={()=>setColor('red')}> red</button>
-    <button on onClick={()=>setColor('blue')}> blue</button>
+    
+    <button on onClick={()=>setColor('blue')}> blue</button> 
+
+    <About/>
 
     </div>
     </>
