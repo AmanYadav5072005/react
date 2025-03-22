@@ -6,7 +6,7 @@ const Child5 = () => {
       <h1>Child5 page</h1>
       <chdata.Consumer>
         {
-            (city)
+            (city)=>{return <h1>{city}</h1>}
         }
       </chdata.Consumer>
     </>
