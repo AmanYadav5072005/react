@@ -11,17 +11,16 @@ function App(){
     
     
     
-    
-    <Navbar/>
+
     <Routes>
       <Route path="/" element={<Navbar/>}>
         
       <Route index element={<Home/>}/>
-      <Route path="/About" element={<About/>}/> 
+      <Route path="/about" element={<About/>}/> 
+      <Route path="/cart" element={<Cart/>}/>
      
-     
-      <Route path="/Service" element={<Service/>}/> 
-      <Route path="/Cart" element={<Cart/>}/> 
+      <Route path="/service" element={<Service/>}/> 
+      
       </Route>
     </Routes>
     
