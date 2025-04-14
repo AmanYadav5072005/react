@@ -29,7 +29,7 @@ const Sign = () => {
         <label html="">Password</label>
         <input type="text" name="password" onChange={Inputhandle}/> <br/>
 
-        <input type="submit"/>
+        <input type="submit"/> 
     </form>
     </>
   )
