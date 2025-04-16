@@ -1,0 +1,39 @@
+{
+  "userdata": [
+    {
+      "uname": "Aman yadav",
+      "age": 20,
+      "contact": 9865478,
+      "city": "hajipur",
+      "id": "232e"
+    },
+    {
+      "uname": "Manish yadav",
+      "age": 27,
+      "contact": 9865478,
+      "city": "bihar",
+      "id": "f713"
+    },
+    {
+      "uname": "Mohit yadav",
+      "age": 90,
+      "contact": 9865478,
+      "city": "bhopal",
+      "id": "0b27"
+    },
+    {
+      "id": "7496",
+      "uname": "MOHIT LUDOO",
+      "age": "90",
+      "contact": "568865788",
+      "city": "mahua"
+    },
+    {
+      "id": "f580",
+      "uname": "AXX",
+      "age": "8",
+      "contact": "985698766",
+      "city": "mahua"
+    }
+  ]
+}

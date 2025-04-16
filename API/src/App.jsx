@@ -1,8 +1,22 @@
-import React from 'react'
+import { Route, Routes } from 'react-router-dom'
+import './App.css'
+import Fetchapi from './Fetchapi'
+import Insert from './Insert'
 
-const App = () => {
+
+
+function App() {
+
+
   return (
     <>
+
+<Routes>
+      <Route index element={<Insert/>}/>
+      <Route path="/fetchapi" element={<Fetchapi/>}/>
+    </Routes>
+
+
     </>
   )
 }
